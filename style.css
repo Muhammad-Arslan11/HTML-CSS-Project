@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-bg-color: rgb(40, 116, 240)
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    background: var(--main-bg-color);
+    color: white;
+}
+header{
+    background: var(--main-bg-color);
+   }
+   nav{
+       display: flex;
+   }
+nav ul{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 55px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+ }
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(191, 181, 228);
+    font-weight: bolder;
+/* .logo{
+    display: flex;
+    justify-content: center; */
+}
+.logo img{
+    width: 125px;
+    padding: 10px; 
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 200px;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+.btn{
+    border-radius: 3px;
+    cursor: pointer;
+    background: var(--main-bg-color);
+    color: white;
+    padding: 0px 10px;
+    margin: 10px;
+}
+.container{
+    height: calc(100vh -55px -12vh);
+    color: black;
+}
+.slider{
+    margin:12px auto;
+    width: 58vw
+    
+}
+.card{
+    margin: 22px auto;
+    
+}
+.card-item{
+    margin: 3px 22px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px 0;
+}
+.card-item img{
+    padding: 0 34px;
+}
+.my-2{
+    margin: 22px;
+    padding: 0 34px;
+}
+.lines{
+    margin: 3px 22px;
+    padding: 0 34px;
+}
+.lines:hover{
+    color: rgb(191, 181, 228);
+    font-weight: bolder;
+}
+
